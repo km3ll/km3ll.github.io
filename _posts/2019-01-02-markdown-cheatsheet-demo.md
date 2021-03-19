@@ -126,10 +126,6 @@ ___
 
 ## Media
 
-### YouTube Embedded Iframe
-
-<div class="video-container"><iframe src="https://youtu.be/nH_AHDILgMc?t=10" frameborder="0" allowfullscreen></iframe></div>
-
 ### Image
 
 ![Minion](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c918ff3c-1264-4794-86e2-6c8fa4063ab3/d9t2h5p-fb1c588b-c3e3-4aa3-9096-7f49886d46bf.png/v1/fill/w_1192,h_670,q_70,strp/batmetal_forever_new_location_by_jackblin_d9t2h5p-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTA4MCIsInBhdGgiOiJcL2ZcL2M5MThmZjNjLTEyNjQtNDc5NC04NmUyLTZjOGZhNDA2M2FiM1wvZDl0Mmg1cC1mYjFjNTg4Yi1jM2UzLTRhYTMtOTA5Ni03ZjQ5ODg2ZDQ2YmYucG5nIiwid2lkdGgiOiI8PTE5MjAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.xJWCdlaxBvQMnuKFdDSKF94yMkX-BPPsHKjYPntyYFo)
