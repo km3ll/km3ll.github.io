@@ -13,7 +13,7 @@ keywords: "reference"
 
 ### Leslie Lamport
 
-- [Erik Meijer and Leslie Lamport - Mathematical Reasoning and Distributed Systems (2010)](https://channel9.msdn.com/shows/Going+Deep/E2E-Erik-Meijer-and-Leslie-Lamport-Mathematical-Reasoning-and-Distributed-Systems/)
+- [Mathematical Reasoning and Distributed Systems (2010)](https://channel9.msdn.com/shows/Going+Deep/E2E-Erik-Meijer-and-Leslie-Lamport-Mathematical-Reasoning-and-Distributed-Systems/)
 
 ### Martin Kleppmann
 
