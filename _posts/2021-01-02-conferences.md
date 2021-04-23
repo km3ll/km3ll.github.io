@@ -11,7 +11,7 @@ keywords: "reference"
 - [The Future of Programming](https://www.youtube.com/watch?v=8pTEmbeENF4)
 - [Inventing on Principle (2012)](https://www.youtube.com/watch?v=PUv66718DII&list=LL&index=7)
 
-### Leslie Lamport
+### Leslie Lamport
 
 - [Erik Meijer and Leslie Lamport - Mathematical Reasoning and Distributed Systems (2010)](https://channel9.msdn.com/shows/Going+Deep/E2E-Erik-Meijer-and-Leslie-Lamport-Mathematical-Reasoning-and-Distributed-Systems/)
 
