@@ -32,7 +32,7 @@ keywords: "reference"
 - [Blockchain: The Slowest (and most Fascinating) Database in the World](https://www.youtube.com/watch?v=li3rfBAP_fE&list=LL&index=29)
 - [REST: I don't Think it Means What You Think it Does](https://www.youtube.com/watch?v=pspy1H6A3FM)
 
-### TED Talks
+### TED Talks
 
 - [How to speak so that people want to listen. By Julian Treasure](https://www.youtube.com/watch?v=eIho2S0ZahI)
 - [How to sound smart in your TEDx Talk. By Will Stephen](https://www.youtube.com/watch?v=8S0FDjFBj8o)
