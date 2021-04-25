@@ -11,7 +11,7 @@ keywords: "reference"
 - [The Future of Programming](https://www.youtube.com/watch?v=8pTEmbeENF4)
 - [Inventing on Principle](https://www.youtube.com/watch?v=PUv66718DII&list=LL&index=7)
 
-### Dan Ariely
+### Dan Ariely
 
 - [Are we in control of our decisions?](https://www.youtube.com/watch?v=9X68dm92HVI)
 - [What makes us feel good about our work?](https://www.youtube.com/watch?v=5aH2Ppjpcho)
