@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "libraries"
+title: "Libraries"
 comments: true
-description: ""
+description: "Java and Scala"
 keywords: "reference"
 ---
 
