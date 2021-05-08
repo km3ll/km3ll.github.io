@@ -8,15 +8,15 @@ keywords: "reference"
 
 ### Architecture
 
-- ["Good Enough" Architecture, by Stefan Tilkov](https://www.youtube.com/watch?v=PzEox3szeRc&list=LL&index=9)
+- ["Good Enough" Architecture, by Stefan Tilkov](https://www.youtube.com/watch?v=PzEox3szeRc)
 - [Microservice Patterns & Antipatterns, by Stefan Tilkov](https://www.youtube.com/watch?v=RsyOkifmamI)
-- [Blockchain: The Slowest (and most Fascinating) Database in the World, by Stefan Tilkov](https://www.youtube.com/watch?v=li3rfBAP_fE&list=LL&index=29)
+- [Blockchain: The Slowest (and most Fascinating) Database in the World, by Stefan Tilkov](https://www.youtube.com/watch?v=li3rfBAP_fE)
 
 ### Programming
 
 - [Mathematical Reasoning and Distributed Systems, by Leslie Lamport and Erik Meijer](https://channel9.msdn.com/shows/Going+Deep/E2E-Erik-Meijer-and-Leslie-Lamport-Mathematical-Reasoning-and-Distributed-Systems/)
 - [The Future of Programming, by Bret Victor](https://www.youtube.com/watch?v=8pTEmbeENF4)
-- [Inventing on Principle, by Bret Victor](https://www.youtube.com/watch?v=PUv66718DII&list=LL&index=7)
+- [Inventing on Principle, by Bret Victor](https://www.youtube.com/watch?v=PUv66718DII)
 
 ### Tools
 
