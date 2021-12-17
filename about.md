@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-Hi, I'm Kmell. I do stuff with computers and sometimes write about it here.
+Hi, I'm Kmell. I hope you find something useful here.
