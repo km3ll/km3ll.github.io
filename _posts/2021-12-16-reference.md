@@ -1,13 +1,15 @@
 ---
 layout: post
-title: "Reference"
+title: "Definition"
 comments: true
 description: ""
-keywords: "reference"
+keywords: ""
 ---
 
-# Protocols
+### Coding
 
-### STOMP
+- Chris Beams. (2014) How to write a Git commit message. [[ref]](https://chris.beams.io/posts/git-commit/)
 
-> STOMP is the Simple (or Streaming) Text Orientated Messaging Protocol. STOMP provides an interoperable wire format so that STOMP clients can communicate with any STOMP message broker to provide easy and widespread messaging interoperability among many languages, platforms and brokers. [[ref]](https://stomp.github.io/)
+### Testing
+
+- Ham Vocke. (2018) The practical test pyramid. [[ref]](https://martinfowler.com/articles/practical-test-pyramid.html)
