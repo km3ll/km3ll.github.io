@@ -3,5 +3,4 @@ layout: page
 title: About
 permalink: /about/
 ---
-
-Interesting resources worth sharing.
+I find these resources interesting and worth sharing.
