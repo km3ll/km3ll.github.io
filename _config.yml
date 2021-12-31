@@ -28,7 +28,7 @@ disqus_shortname:
 github_username: kmell
 twitter_username: kmellzie
 linkedin_username: juancamiloramirezgaviria
-dev_username: dev_user
+dev_username:
 
 # Post sharing icons
 show_sharing_icons: false
