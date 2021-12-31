@@ -2,9 +2,9 @@
 title:       Mixyll
 email:       kmell@protonmail.com
 author:      Kmell
-description: "Lorem Ipsum"
+description: "Lorem Ipsum ..."
 baseurl:     ""
-url:         "https://km3ll.github.io"
+url:         "https://mixyll.saikiransripada.com"
 date_format: "%b %-d, %Y"
 header_pages:
  - about.md
@@ -14,7 +14,7 @@ google_analytics:
 
 # Optional features
 animated:             true
-show_related_posts:   false
+show_related_posts:   true
 show_post_footers:    false
 show_social_icons:    true
 
@@ -25,10 +25,10 @@ post_preview_image: false
 disqus_shortname:
 
 # Social icons
-github_username: km3ll
+github_username: kmell
 twitter_username: kmellzie
 linkedin_username: juancamiloramirezgaviria
-#dev_username: dev_user
+dev_username: dev_user
 
 # Post sharing icons
 show_sharing_icons: true
