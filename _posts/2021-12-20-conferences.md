@@ -42,7 +42,3 @@ Dan Ariely
 Julian Treasure
 
 - How to speak so that people want to listen [[>]](https://www.youtube.com/watch?v=eIho2S0ZahI)
-
-Will Stephen
-
-- How to sound smart in your TEDx Talk [[>]](https://www.youtube.com/watch?v=8S0FDjFBj8o)
