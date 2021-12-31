@@ -15,7 +15,7 @@ google_analytics:
 # Optional features
 animated:             true
 show_related_posts:   false
-show_post_footers:    false
+show_post_footers:    true
 show_social_icons:    true
 
 # Preview image for social media aka og:image and twitter:image
@@ -25,7 +25,7 @@ post_preview_image: false
 disqus_shortname:
 
 # Social icons
-github_username: kmell
+github_username: km3ll
 twitter_username: kmellzie
 linkedin_username: juancamiloramirezgaviria
 dev_username:
