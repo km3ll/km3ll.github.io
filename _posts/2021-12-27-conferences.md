@@ -2,7 +2,7 @@
 layout: post
 title: Conferences
 date: 2021-12-27 17:02
-summary: 
+summary: Researched topics explained by experts
 categories: jekyll mixyll
 ---
 
