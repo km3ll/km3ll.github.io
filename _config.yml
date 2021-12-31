@@ -1,54 +1,87 @@
-# Configurations
-title:            Jekyll Gitbook
-longtitle:        Jekyll Gitbook
-author:           HE Tao
-email:            sighingnow@gmail.com
-description: >
-  Build Jekyll site with the GitBook style.
+# Site settings
+title:       Mixyll
+email:       hello@saikiransripada.com
+author:      Sai Kiran Sripada
+description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+baseurl:     ""
+url:         "https://mixyll.saikiransripada.com"
+date_format: "%b %-d, %Y"
+header_pages:
+ - about.md
+ - contact.html
 
-version:          1.0
-gitbook_version:  3.2.3
+google_analytics:
 
-url:              'https://sighingnow.github.io'
-baseurl:          '/jekyll-gitbook'
-rss:              RSS
+# Optional features
+animated:             true
+show_related_posts:   true
+show_post_footers:    false
+show_social_icons:    true
 
-toc:
-  enabled: true
-  h_min: 1
-  h_max: 3
+# Preview image for social media aka og:image and twitter:image
+post_preview_image: false
 
-# Search settings
-tipue_search:
-  include:
-    pages: true
-  exclude:
-    files: [index.md, search.html]
+# Disqus post comments
+disqus_shortname:
 
-# markdown render engine.
-markdown:         kramdown
-kramdown:
-  auto_ids:               true
-  input:                  GFM
-  math_engine:            mathjax
-  smart_quotes:           lsquo,rsquo,ldquo,rdquo
-  toc_levels:             1..6
-  syntax_highlighter:     rouge
-  syntax_highlighter_opts:
-    guess_lang:           true
+# Social icons
+github_username: saikiransripada
+twitter_username: wp_user
+linkedin_username: saikiransripada
+dev_username: dev_user
 
-markdown_ext:     markdown,mkdown,mkdn,mkd,md
+# Post sharing icons
+show_sharing_icons: true
+# Change to 'true' to enable individual icons
+share_facebook: true
+share_twitter: true
+share_googleplus: true
+share_linkedin: true
+share_digg: true
+share_tumblr: true
+share_reddit: true
+share_stumbleupon: true
+share_hackernews: true
 
-# Permalinks
-permalink:        /:categories/:year-:month-:day-:title:output_ext
+text:
+  pagination:
+    newer: 'Newer'
+    older: 'Older'
+  share_buttons:
+    text:         'Share:'
+    facebook:     'Share on Facebook'
+    twitter:      'Share on Twitter'
+    googleplus:   'Share on Google+'
+    linkedin:     'Share on LinkedIn'
+    digg:         'Share on Digg'
+    tumblr:       'Share on Tumblr'
+    reddit:       'Share on Reddit'
+    stumbleupon:  'Share on StumbleUpon'
+    hackernews:   'Share on Hacker News'
+  post:
+    updated:        'Updated'
+    minute_read:    'minute read'
+    related_posts:  'Related Posts'
+    post_footer:    'Lorem ipsum'
+  index:
+    coming_soon: 'Coming soon...'
+  og_locale: 'en_US'
+
+# Build settings
+markdown:     kramdown
+redcarpet:
+  extensions: ['smart', 'tables', 'with_toc_data']
+permalink:    :title
+paginate:     4
+sass:
+  style: compressed
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
 
 exclude:
-  - _drafts
-
-destination:      ./_site
-incremental:      false
-regenerate:       true
-
-plugins:
-  - jekyll-feed
-  - jemoji
+  - Gemfile
+  - Gemfile.lock
+  - Rakefile
+  - README.md
+  - vendor

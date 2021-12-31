@@ -1,53 +1,64 @@
-<!DOCTYPE HTML>
-<html lang="en" >
-    <head>
+---
+layout: default
+---
 
-        {%- include head.html -%}
+{% assign minutes = content | strip_html | number_of_words | divided_by: 180 %}
+{% if minutes == 0 %}
+{% assign minutes = 1 %}
+{% endif %}
 
-        {% if page.previous %}
-            <link rel="prev" href="{{site.baseurl}}{{page.previous.url}}" />
-        {% else %}
-            <link rel="prev" href="{{site.baseurl}}/" />
-        {% endif %}
+<div class="post-header mb2">
+  <h1>{{ page.title }}</h1>
+  <span class="post-meta">{{ page.date | date: site.date_format }} |</span>
+  {% if page.update_date %}
+    <span class="post-meta">{{ site.text.post.updated | default: "Updated" }}: {{ page.update_date | date: site.date_format }} |</span>
+  {% endif %}
+  <span class="post-meta small">
+  {% if page.minutes %}
+    {{ page.minutes }} {{ site.text.post.minute_read | default: "minute read" }}
+  {% else %}
+    {{ minutes }} {{ site.text.post.minute_read | default: "minute read" }}
+  {% endif %}
+  </span>
+</div>
 
-        {% if page.next %}
-            <link rel="next" href="{{site.baseurl}}{{page.next.url}}" />
-        {% endif %}
-    </head>
-    <body>
-        <div class="book">
+<article class="post-content">
+  {{ content }}
+</article>
 
-            {%- include toc-date.html -%}
+{% if site.show_sharing_icons %}
+  {% include share_buttons.html %}
+{% endif %}
 
-            <div class="book-body">
-                {%- include body.html -%}
+{% if site.show_post_footers %}
+  {% include post_footer.html %}
+{% endif %}
 
-                {% if page.previous %}
-                    <a href="{{site.baseurl}}{{page.previous.url}}" class="navigation navigation-prev navigation-unique" aria-label="Previous page: {{page.previous.title}}">
-                        <i class="fa fa-angle-left"></i>
-                    </a>
-                {% else %}
-                    <a href="{{site.baseurl}}/" class="navigation navigation-prev navigation-unique" aria-label="Previous page: {{site.title}}">
-                        <i class="fa fa-angle-left"></i>
-                    </a>
-                {% endif %}
+{% if site.disqus_shortname %}
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+    var disqus_shortname  = '{{ site.disqus_shortname }}';
+    var disqus_identifier = '{{ page.id }}';
+    var disqus_title      = {{ page.title | jsonify }};
 
-                {% if page.next %}
-                    <a href="{{site.baseurl}}{{page.next.url}}" class="navigation navigation-next navigation-unique" aria-label="Next page: {{page.next.title}}">
-                        <i class="fa fa-angle-right"></i>
-                    </a>
-                {% endif %}
-            </div>
+    (function() {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+{% endif %}
 
-            <script>
-            var gitbook = gitbook || [];
-            gitbook.push(function() {
-                gitbook.page.hasChanged({%- include metadata-post.json.tpl -%});
-            });
-            </script>
-        </div>
-
-        {%- include footer.html -%}
-
-    </body>
-</html>
+{% if site.show_related_posts %}
+  <h3 class="related-post-title">{{ site.text.post.related_posts | default: "Related Posts" }}</h3>
+  <ul class="related-posts">
+    {% for post in site.related_posts %}
+    <li>
+      <a href="{{ post.url | relative_url }}" class="post-link">
+          {{ post.title }}
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+{% endif %}
