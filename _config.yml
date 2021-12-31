@@ -1,21 +1,21 @@
 # Site settings
 title:       Mixyll
-email:       kmell@protonmail.com
-author:      Kmell
-description: "Lorem Ipsum ..."
+email:       hello@saikiransripada.com
+author:      Sai Kiran Sripada
+description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
 baseurl:     ""
 url:         "https://mixyll.saikiransripada.com"
 date_format: "%b %-d, %Y"
 header_pages:
  - about.md
- #- contact.html
+ - contact.html
 
 google_analytics:
 
 # Optional features
 animated:             true
-show_related_posts:   false
-show_post_footers:    true
+show_related_posts:   true
+show_post_footers:    false
 show_social_icons:    true
 
 # Preview image for social media aka og:image and twitter:image
@@ -25,13 +25,13 @@ post_preview_image: false
 disqus_shortname:
 
 # Social icons
-github_username: km3ll
-twitter_username: kmellzie
-linkedin_username: juancamiloramirezgaviria
-dev_username:
+github_username: saikiransripada
+twitter_username: wp_user
+linkedin_username: saikiransripada
+dev_username: dev_user
 
 # Post sharing icons
-show_sharing_icons: false
+show_sharing_icons: true
 # Change to 'true' to enable individual icons
 share_facebook: true
 share_twitter: true
