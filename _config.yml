@@ -16,7 +16,7 @@ google_analytics:
 animated:             true
 show_related_posts:   false
 show_post_footers:    false
-show_social_icons:    false
+show_social_icons:    true
 
 # Preview image for social media aka og:image and twitter:image
 post_preview_image: false
@@ -31,7 +31,7 @@ linkedin_username: juancamiloramirezgaviria
 dev_username: dev_user
 
 # Post sharing icons
-show_sharing_icons: true
+show_sharing_icons: false
 # Change to 'true' to enable individual icons
 share_facebook: true
 share_twitter: true
