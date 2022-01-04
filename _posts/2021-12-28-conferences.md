@@ -34,4 +34,4 @@ categories: jekyll mixyll
 - "Good Enough" Architecture [[>]](https://www.youtube.com/watch?v=PzEox3szeRc)
 - Microservice Patterns & Antipatterns [[>]](https://www.youtube.com/watch?v=RsyOkifmamI)
 - Blockchain: The Slowest (and most Fascinating) Database in the World [[>]](https://www.youtube.com/watch?v=li3rfBAP_fE)
-- REST: I don't Think it Means What You Think it Does, by Stefan Tilkov [[>]](https://www.youtube.com/watch?v=pspy1H6A3FM)
+- REST: I don't Think it Means What You Think it Does [[>]](https://www.youtube.com/watch?v=pspy1H6A3FM)
