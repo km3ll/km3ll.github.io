@@ -1,8 +1,8 @@
 # Site settings
-title:       Mixyll
+title:       khazad-dum
 email:       
-author:      Kmell
-description: "Lorem Ipsum ..."
+author:      kmell
+description: ""
 baseurl:     ""
 url:         "https://km3ll.github.io"
 date_format: "%b %-d, %Y"
